@@ -3,12 +3,24 @@
     padding: 0;
     margin: 0;
 }
+    
+/*Background of the page*/
 
-body {
-    background-color: #d9dcd6;
+body { 
+    background-color: #d9dcd6; 
 }
 
-.header {
+a {
+    color: #ffffff /*Grey Colored Text*/
+}
+
+P {
+    font-size: 16;
+}
+
+
+/* Header Format*/
+.header {     
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -50,6 +62,8 @@ p {
     font-size: 16px;
 }
 
+/*Main content*/
+
 .hero {
     height: 800px;
     width: 100%;
@@ -74,6 +88,8 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
+/*Additional Information*/
 
 .benefits {
     margin-right: 20px;
